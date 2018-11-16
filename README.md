@@ -1,5 +1,5 @@
 # springboot-bboss-elasticsearch
-# https://mp.csdn.net/postedit/84134864
+##### https://mp.csdn.net/postedit/84134864
 ##### 整合springboot+bboss+elasticsearch，实现java对es的操作
 ##### 需要修改的配置
 ##### application.yml文件：
