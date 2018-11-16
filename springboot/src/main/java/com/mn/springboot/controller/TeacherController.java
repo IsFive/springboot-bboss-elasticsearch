@@ -44,7 +44,7 @@ public class TeacherController {
     public List<Teacher> get(){
         Teacher teacher = new Teacher();
         teacher.setTeacherId("2");
-        List<Teacher> t = esUtil.getDocumentList("teacher",teacher,"searchTeacher",ESClient.restClient("teacher"));
+        List<Teacher> t = esUtil.exec("teacher",teacher,"searchTeacher");
         return t;
     }
 }
